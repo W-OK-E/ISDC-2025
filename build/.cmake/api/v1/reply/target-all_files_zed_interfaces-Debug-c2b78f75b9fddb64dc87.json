@@ -1,0 +1,6478 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"zed-ros-wrapper/zed-ros-interfaces/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "all_files_zed_interfaces::@1227c36b6aa47eca1568",
+	"name" : "all_files_zed_interfaces",
+	"paths" : 
+	{
+		"build" : "zed-ros-wrapper/zed-ros-interfaces",
+		"source" : "zed-ros-wrapper/zed-ros-interfaces"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				29,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				56,
+				57,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				199,
+				207,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				488,
+				584,
+				585,
+				586,
+				587,
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				595,
+				596,
+				597,
+				598,
+				599,
+				600,
+				601,
+				602,
+				603,
+				604,
+				605,
+				606,
+				607,
+				608,
+				609,
+				610,
+				611,
+				612,
+				613,
+				614,
+				615,
+				716,
+				717,
+				818,
+				869,
+				870,
+				871,
+				872,
+				873,
+				874,
+				875,
+				876,
+				877,
+				878,
+				879,
+				880,
+				881,
+				882,
+				883,
+				884,
+				885,
+				886,
+				887,
+				888,
+				889,
+				890,
+				891,
+				892,
+				893,
+				894,
+				895,
+				896,
+				897,
+				898,
+				899,
+				900,
+				901,
+				902,
+				903,
+				904,
+				905,
+				906,
+				907,
+				908,
+				909,
+				910,
+				911,
+				912,
+				913,
+				914,
+				915,
+				916,
+				917,
+				918,
+				919,
+				920,
+				921,
+				922,
+				923,
+				924,
+				925,
+				926,
+				927,
+				928,
+				929,
+				930,
+				931,
+				932,
+				933,
+				934,
+				935,
+				936,
+				937,
+				938,
+				939,
+				940,
+				941,
+				942,
+				943,
+				944,
+				945,
+				946,
+				947,
+				948,
+				949,
+				950,
+				951,
+				952,
+				953,
+				954,
+				955,
+				956,
+				957,
+				958,
+				959,
+				960,
+				961,
+				962,
+				963,
+				964,
+				965,
+				966,
+				967,
+				968,
+				969,
+				970,
+				971,
+				972,
+				973,
+				974,
+				975,
+				976,
+				977,
+				978,
+				979,
+				980,
+				983,
+				984,
+				985,
+				986,
+				987,
+				988,
+				989,
+				990,
+				991,
+				992,
+				993,
+				994,
+				995,
+				996,
+				997,
+				998,
+				999,
+				1000,
+				1001,
+				1002,
+				1003,
+				1004,
+				1005,
+				1006,
+				1007,
+				1008,
+				1009,
+				1010,
+				1011,
+				1012,
+				1013,
+				1014,
+				1015,
+				1016,
+				1017,
+				1018,
+				1019,
+				1020,
+				1021,
+				1022,
+				1023,
+				1024,
+				1025,
+				1026,
+				1027,
+				1028,
+				1029,
+				1030,
+				1039,
+				1040,
+				1041,
+				1042,
+				1043,
+				1044,
+				1045,
+				1046,
+				1047,
+				1048,
+				1049,
+				1050,
+				1051,
+				1052,
+				1053,
+				1054,
+				1055,
+				1056,
+				1057,
+				1058,
+				1059,
+				1060,
+				1061,
+				1062,
+				1064,
+				1065,
+				1066,
+				1067,
+				1068
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				28,
+				97,
+				198,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				208,
+				209,
+				210,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425,
+				426,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				453,
+				454,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				499,
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543,
+				544,
+				545,
+				546,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				563,
+				564,
+				565,
+				566,
+				567,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573,
+				574,
+				575,
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				582,
+				583,
+				616,
+				617,
+				618,
+				619,
+				620,
+				621,
+				622,
+				623,
+				624,
+				625,
+				626,
+				627,
+				628,
+				629,
+				630,
+				631,
+				632,
+				633,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639,
+				640,
+				641,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				648,
+				649,
+				650,
+				651,
+				652,
+				653,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				662,
+				663,
+				664,
+				665,
+				666,
+				667,
+				668,
+				669,
+				670,
+				671,
+				672,
+				673,
+				674,
+				675,
+				676,
+				677,
+				678,
+				679,
+				680,
+				681,
+				682,
+				683,
+				684,
+				685,
+				686,
+				687,
+				688,
+				689,
+				690,
+				691,
+				692,
+				693,
+				694,
+				695,
+				696,
+				697,
+				698,
+				699,
+				700,
+				701,
+				702,
+				703,
+				704,
+				705,
+				706,
+				707,
+				708,
+				709,
+				710,
+				711,
+				712,
+				713,
+				714,
+				715,
+				718,
+				719,
+				720,
+				721,
+				722,
+				723,
+				724,
+				725,
+				726,
+				727,
+				728,
+				729,
+				730,
+				731,
+				732,
+				733,
+				734,
+				735,
+				736,
+				737,
+				738,
+				739,
+				740,
+				741,
+				742,
+				743,
+				744,
+				745,
+				746,
+				747,
+				748,
+				749,
+				750,
+				751,
+				752,
+				753,
+				754,
+				755,
+				756,
+				757,
+				758,
+				759,
+				760,
+				761,
+				762,
+				763,
+				764,
+				765,
+				766,
+				767,
+				768,
+				769,
+				770,
+				771,
+				772,
+				773,
+				774,
+				775,
+				776,
+				777,
+				778,
+				779,
+				780,
+				781,
+				782,
+				783,
+				784,
+				785,
+				786,
+				787,
+				788,
+				789,
+				790,
+				791,
+				792,
+				793,
+				794,
+				795,
+				796,
+				797,
+				798,
+				799,
+				800,
+				801,
+				802,
+				803,
+				804,
+				805,
+				806,
+				807,
+				808,
+				809,
+				810,
+				811,
+				812,
+				813,
+				814,
+				815,
+				816,
+				817,
+				819,
+				820,
+				821,
+				822,
+				823,
+				824,
+				825,
+				826,
+				827,
+				828,
+				829,
+				830,
+				831,
+				832,
+				833,
+				834,
+				835,
+				836,
+				837,
+				838,
+				839,
+				840,
+				841,
+				842,
+				843,
+				844,
+				845,
+				846,
+				847,
+				848,
+				849,
+				850,
+				851,
+				852,
+				853,
+				854,
+				855,
+				856,
+				857,
+				858,
+				859,
+				860,
+				861,
+				862,
+				863,
+				864,
+				865,
+				866,
+				867,
+				868,
+				981,
+				982
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				30,
+				1031,
+				1033,
+				1035,
+				1037
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				55,
+				58,
+				1032,
+				1034,
+				1036,
+				1038,
+				1063
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/config",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/description",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/hooks/applypatch-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/hooks/commit-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/hooks/fsmonitor-watchman.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/hooks/post-update.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/hooks/pre-applypatch.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/hooks/pre-commit.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/hooks/pre-merge-commit.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/hooks/pre-push.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/hooks/pre-rebase.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/hooks/pre-receive.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/hooks/prepare-commit-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/hooks/update.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/index",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/info/exclude",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/logs/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/logs/refs/heads/main",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/logs/refs/remotes/origin/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/objects/pack/pack-e0d0e56486b09d8c1bd254fd704bdff2f2f96b36.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/objects/pack/pack-e0d0e56486b09d8c1bd254fd704bdff2f2f96b36.pack",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/packed-refs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/refs/heads/main",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.git/refs/remotes/origin/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.github/workflows/test.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/CLIP.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/LICENSE",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/MANIFEST.in",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/clip.egg-info/PKG-INFO",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/clip.egg-info/SOURCES.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/clip.egg-info/dependency_links.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/clip.egg-info/requires.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/clip.egg-info/top_level.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/clip/__init__.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/clip/bpe_simple_vocab_16e6.txt.gz",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/clip/clip.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/clip/model.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/clip/simple_tokenizer.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/data/country211.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/data/prompts.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/data/rendered-sst2.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/data/yfcc100m.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/hubconf.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/model-card.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/notebooks/Interacting_with_CLIP.ipynb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/notebooks/Prompt_Engineering_for_ImageNet.ipynb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/requirements.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/setup.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clip/tests/test_consistency.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mapping/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mapping/package.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mapping/src/mapping.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mapping2/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mapping2/package.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mapping2/src/mapping.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/config",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/description",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/hooks/applypatch-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/hooks/commit-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/hooks/fsmonitor-watchman.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/hooks/post-update.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/hooks/pre-applypatch.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/hooks/pre-commit.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/hooks/pre-merge-commit.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/hooks/pre-push.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/hooks/pre-rebase.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/hooks/pre-receive.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/hooks/prepare-commit-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/hooks/update.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/index",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/info/exclude",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/logs/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/logs/refs/heads/main",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/logs/refs/remotes/origin/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/objects/pack/pack-1fecffbe126e2bb7955b918f002c3c8a30d9d7a0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/objects/pack/pack-1fecffbe126e2bb7955b918f002c3c8a30d9d7a0.pack",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/packed-refs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/refs/heads/main",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/.git/refs/remotes/origin/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/Mars_shrunk/model.config",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/Mars_shrunk/model.sdf",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/configureshell.sh",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/husky_moving.mp4",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/launch/mars.launch",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/launch/mars_husky.launch",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/package.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/worlds/mars.world",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/worlds/mars_husky.world",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/worlds/mars_topografi.dae",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/worlds/mesh_export.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mars_gazebo/worlds/model_texture.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/FETCH_HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/config",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/description",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/applypatch-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/commit-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/fsmonitor-watchman.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/post-checkout",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/post-commit",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/post-merge",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/post-update.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/pre-applypatch.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/pre-commit.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/pre-push",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/pre-push.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/pre-rebase.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/pre-receive.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/prepare-commit-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/hooks/update.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/index",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/info/exclude",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/05/ad/05adcbf87578df93fec4faa7991c61cde195f152f2fa169b756f1acd0e761fac",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/19/d5/19d51d276d220eaf381f7d1a44987f5ca778b1c92bcd0d141865535615ca47bd",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/38/ed/38eda7b432493cbec09b3e7258a7c72350992616990c5786c9d84f7b2c0662b1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/3b/3d/3b3d8f756fc0066627c08f3ce78da8a4cead9a0725c3b0c9878d63308c16f1a1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/48/80/488056438ee9de9c9a1bb86bfcc30040f2af7ff8774013a8727c5f58f71363e9",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/58/ef/58ef62d97946ba74aac3b9c4a033cb7f0fa63240799405748ed89f5fc43f4451",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/78/7f/787f1a757dadac704ffbb5cd35bd850bc50920d487fa1689bb91be1cd0aed813",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/7e/fe/7efe053c9ebe5063c287bdca0236d48c33248517756356244f81f98bff4d909c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/82/2d/822d1d12fd8b28bb811554ab66c99e3aa54ddc4407816a43a80d911f4cba09d7",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/aa/fa/aafafde8ce29aa3ddafbc13e3f64d0288ce96e0ade271ce8255d178559e15565",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/d4/f9/d4f90977a75c81b71783d949e4fa00c6b138dc54ec205e1c13ea177964860506",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/e1/b3/e1b36942623e128e88312a4c01ba4d52ea7c0d77166d61ea4561c830925b083e",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/e3/0c/e30c9848a97cfa59408f65ed45fbce7462a28267e822225b110bb7fa6770a35b",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/lfs/objects/f5/da/f5da0d68f55d1929296ffcb1626f8fec54178927aeb870a4db14dce5bb789821",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/logs/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/logs/refs/heads/master",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/logs/refs/remotes/origin/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/objects/pack/pack-bbdd6fc258818fad74dab7fcdaa8aa5f54719443.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/objects/pack/pack-bbdd6fc258818fad74dab7fcdaa8aa5f54719443.pack",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/packed-refs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/refs/heads/master",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.git/refs/remotes/origin/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/.gitattributes",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/config/joint_names_assembly.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/launch/robot.launch",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/launch/robot_sim.launch",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/meshes/base_link.STL",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/meshes/caster_part.STL",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/meshes/caster_wheel.STL",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/meshes/left_wheel.STL",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/meshes/lower_zed.STL",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/meshes/lower_zed_cam.STL",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/meshes/right_wheel.STL",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/meshes/upper_zed.STL",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/meshes/zed2i.STL",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/meshes/zed_cam.STL",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/meshes/zed_slot.STL",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/meshes/zedm.STL",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/package.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/urdf/assembly.urdf",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/urdf/plugins/diff_drive.xacro",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/urdf/plugins/gps_plugin.xacro",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/urdf/plugins/libgazebo_ros_3d_lidar.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/urdf/plugins/libgazebo_ros_velodyne_gpu_laser.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/urdf/plugins/libgazebo_ros_velodyne_laser.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/urdf/plugins/lidar_plugin.xacro",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/urdf/plugins/lidar_plugin_2d.xacro",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/urdf/plugins/zed_plugin.xacro",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/urdf/robot.urdf.xacro",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "robot_description/urdf/tyre.xacro",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/config",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/description",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/hooks/applypatch-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/hooks/commit-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/hooks/fsmonitor-watchman.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/hooks/post-update.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/hooks/pre-applypatch.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/hooks/pre-commit.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/hooks/pre-merge-commit.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/hooks/pre-push.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/hooks/pre-rebase.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/hooks/pre-receive.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/hooks/prepare-commit-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/hooks/update.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/index",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/info/exclude",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/logs/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/logs/refs/heads/master",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/logs/refs/remotes/origin/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/objects/pack/pack-34e24108d627c8d57cba87fd86552b8cca48134a.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/objects/pack/pack-34e24108d627c8d57cba87fd86552b8cca48134a.pack",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/packed-refs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/refs/heads/master",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/.git/refs/remotes/origin/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/License.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/birddrawnbyachild.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/coco_scene_images_training.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/drin.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/faceshq.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/first_stage_mushrooms.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/first_stage_squirrels.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/imagenet.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/lake_in_the_mountains.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/mountain.jpeg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/scene_images_samples.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/stormy.jpeg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/sunset_and_ocean.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/assets/teaser.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/configs/coco_cond_stage.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/configs/coco_scene_images_transformer.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/configs/custom_vqgan.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/configs/drin_transformer.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/configs/faceshq_transformer.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/configs/faceshq_vqgan.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/configs/imagenet_vqgan.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/configs/imagenetdepth_vqgan.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/configs/open_images_scene_images_transformer.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/configs/sflckr_cond_stage.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_examples.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000123.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000125.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000126.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000203.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000262.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000287.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000289.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000303.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000509.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000532.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000573.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000603.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000636.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000734.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000875.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00000880.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001177.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001200.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001209.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001388.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001412.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001498.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001578.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001583.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001698.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001766.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001845.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001851.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001947.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_images/ADE_val_00001966.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000123.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000125.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000126.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000203.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000262.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000287.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000289.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000303.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000509.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000532.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000573.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000603.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000636.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000734.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000875.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00000880.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001177.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001200.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001209.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001388.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001412.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001498.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001578.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001583.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001698.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001766.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001845.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001851.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001947.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ade20k_segmentations/ADE_val_00001966.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/celebahqtrain.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/celebahqvalidation.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/annotations/instances_train2017.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/annotations/instances_val2017.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/annotations/stuff_train2017.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/annotations/stuff_val2017.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010005.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010008.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010012.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010014.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010015.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010023.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010024.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010037.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010039.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010040.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010041.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010046.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010056.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010058.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010069.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010073.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010077.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010082.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010083.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010084.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010094.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010097.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010104.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010107.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010108.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010114.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010115.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010123.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010125.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010130.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010136.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010138.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010142.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010145.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010149.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010161.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010166.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010175.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010176.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010179.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010192.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010196.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010205.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010211.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010216.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010217.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010219.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010222.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010229.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010230.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010232.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010239.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010241.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010243.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010244.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010245.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010248.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010249.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010256.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010263.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010265.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010275.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010276.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010281.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010290.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010303.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010309.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010313.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010318.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010319.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010321.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010324.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010327.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010337.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010342.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010343.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010346.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010358.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010369.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010386.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010388.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010393.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010395.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010400.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010403.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010405.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010407.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010414.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010420.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010421.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010428.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010430.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010432.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010434.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010440.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010442.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010444.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010445.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010449.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/train2017/000000010463.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000010092.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000010363.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000010583.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000010707.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000010764.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000010977.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000010995.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000011051.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000011122.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000011149.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000011197.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000011511.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000011615.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000011699.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000011760.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000011813.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000012062.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000012120.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000012280.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000012576.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000012639.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000012667.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000012670.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000012748.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000013004.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000013177.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000013201.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000013291.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000013348.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000013546.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000013597.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000013659.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000013729.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000013774.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000013923.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000014007.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000014038.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000014226.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000014380.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000014439.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000014473.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000014831.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000014888.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015079.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015254.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015272.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015278.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015335.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015338.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015440.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015497.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015517.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015597.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015660.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015746.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015751.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000015956.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000016010.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000016228.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000016249.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000016439.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000016451.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000016502.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000016598.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000016958.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017029.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017031.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017115.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017178.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017182.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017207.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017379.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017436.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017627.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017714.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017899.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017905.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000017959.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000018150.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000018193.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000018380.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000018491.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000018519.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000018575.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000018737.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000018770.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000018833.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000018837.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000019042.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000019109.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000019221.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000019402.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000019432.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000019742.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000019786.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000019924.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000020059.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000020107.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000020247.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_annotations_100/val2017/000000020333.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_examples.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000018380.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000052507.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000057672.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000064898.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000098392.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000110638.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000119445.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000128658.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000154358.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000166259.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000166563.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000175387.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000185599.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000205834.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000231169.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000237928.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000255824.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000256775.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000299355.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000299720.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000303653.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000323895.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000335529.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000348045.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000348481.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000350405.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000356347.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000361180.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000403385.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000406997.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000452122.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000491464.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000517069.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000522393.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_images/000000569273.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000018380.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000052507.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000057672.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000064898.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000098392.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000110638.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000119445.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000128658.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000154358.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000166259.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000166563.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000175387.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000185599.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000205834.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000231169.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000237928.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000255824.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000256775.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000299355.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000299720.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000303653.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000323895.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000335529.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000348045.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000348481.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000350405.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000356347.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000361180.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000403385.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000406997.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000452122.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000491464.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000517069.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000522393.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/coco_segmentations/000000569273.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n01795545/ILSVRC2012_val_00023344.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n01819313/ILSVRC2012_val_00003068.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n01820546/ILSVRC2012_val_00034784.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n01820546/ILSVRC2012_val_00047491.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n01828970/ILSVRC2012_val_00001336.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n01828970/ILSVRC2012_val_00008236.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n01828970/ILSVRC2012_val_00046802.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n01843065/ILSVRC2012_val_00022439.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n01847000/ILSVRC2012_val_00022364.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02085782/ILSVRC2012_val_00012298.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02086646/ILSVRC2012_val_00011473.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02088466/ILSVRC2012_val_00013651.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02089973/ILSVRC2012_val_00000028.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02093256/ILSVRC2012_val_00046547.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02096294/ILSVRC2012_val_00042133.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02099601/ILSVRC2012_val_00005697.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02099712/ILSVRC2012_val_00023471.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02100877/ILSVRC2012_val_00039863.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02101006/ILSVRC2012_val_00032333.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02101006/ILSVRC2012_val_00047325.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02101556/ILSVRC2012_val_00030540.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02102318/ILSVRC2012_val_00024691.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02105505/ILSVRC2012_val_00031252.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02110627/ILSVRC2012_val_00008310.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_depth/n02111889/ILSVRC2012_val_00042625.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_examples.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n01795545/ILSVRC2012_val_00023344.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n01819313/ILSVRC2012_val_00003068.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n01820546/ILSVRC2012_val_00034784.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n01820546/ILSVRC2012_val_00047491.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n01828970/ILSVRC2012_val_00001336.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n01828970/ILSVRC2012_val_00008236.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n01828970/ILSVRC2012_val_00046802.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n01843065/ILSVRC2012_val_00022439.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n01847000/ILSVRC2012_val_00022364.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02085782/ILSVRC2012_val_00012298.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02086646/ILSVRC2012_val_00011473.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02088466/ILSVRC2012_val_00013651.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02089973/ILSVRC2012_val_00000028.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02093256/ILSVRC2012_val_00046547.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02096294/ILSVRC2012_val_00042133.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02099601/ILSVRC2012_val_00005697.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02099712/ILSVRC2012_val_00023471.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02100877/ILSVRC2012_val_00039863.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02101006/ILSVRC2012_val_00032333.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02101006/ILSVRC2012_val_00047325.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02101556/ILSVRC2012_val_00030540.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02102318/ILSVRC2012_val_00024691.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02105505/ILSVRC2012_val_00031252.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02110627/ILSVRC2012_val_00008310.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/drin_images/n02111889/ILSVRC2012_val_00042625.JPEG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ffhqtrain.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/ffhqvalidation.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/flickr_tags.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/class-descriptions-boxable.csv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/oidv6-train-annotations-bbox.csv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train-images-boxable.csv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ab31e6be35fed.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ab7bec71cc50a.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ab8c20b3e5b58.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000abc075d659122.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000abc821f66a892.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000abe5eddc5b303.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ac34008b0ba4c.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ac8c676b6077a.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ac95750ac7399.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000acf666d991c39.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ad0ecfb21ee63.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ad20b5e452b24.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ad3d42653f5f6.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ad6c520be9ec5.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ad6fa67b5ad96.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000adcdd7244ce4a.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000adef7197e3118.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000adfe5b817011c.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ae235808cc1e8.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ae28755d2d20e.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000aecd78b230135.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000aee0af66d4237.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000af180a3163f17.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000af631fb329557.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000afe7726e121ea.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b06c0eed42a4c.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b093da01e5bfe.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b09d5d3fc821f.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b0f235dcf2caa.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b0f5159f54105.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b168e791f591d.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b1971d8daaeef.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b1b3b85edd850.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b1b92f0800e94.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b21663becc68e.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b260e1f08a32a.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b29496f75c8e5.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b299b5f5ed902.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b2a982a903d0d.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b2b00065e564a.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b2d1789d5f80d.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b38d9f2f664fe.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b393437134262.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b3940e7d25c03.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b397382b2464a.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b42cae15622e0.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b432ae644b679.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b4671075914cd.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b485cedacbf97.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b4935979bf4b5.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b4fcdf1af3361.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b50bdd1933a36.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b55559b0244d7.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b55e339f0b131.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b567c26dd4e5d.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b59a7822679e6.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b5bc07c0c5df7.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b606e130bdf5e.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b63a1445f53c8.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b65a36ad46f9e.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b70a84aab664b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b72e1446f8849.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b76a9b80ba43a.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b7dfaa1810a83.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b81b5757963e0.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b825dea3016eb.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b87119cc301cf.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b8d80f7386698.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b9007a01f7405.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b93644609911f.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b9814a07fd974.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b9a97776b3634.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b9b00d7aef8f5.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b9b61afea2cd4.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b9c365c9e307a.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b9d6c0f7d794d.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000b9f3ba4891c11.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ba221f70676c6.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ba28d70b1a999.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ba3ca8a2ca955.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ba40bf7a2b458.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000ba940f8cfc9bf.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000baa6f7dae9b79.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bab5b1a67844e.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bb0ae453283b0.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bb200fc78fc30.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bb2f7132013dc.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bb81adefe7332.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bb846e2629e83.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bb8bd9b1bca65.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bbdf0dc8099d8.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bc1eb7f74adae.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bc33717a6371f.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bc387c731dd97.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bc5006eb7fd98.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bc5ad4cc3ae73.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bc75d38907c78.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bc7b0a1889bcb.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bcd3bcd95cbb3.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/train/000bcee5bed5446b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation-annotations-bbox.csv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation-images.csv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09c5b4d6bc25788d.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09c67960e389e4df.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09c6ddd2c210450e.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09c7f89055cf399b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09c863d76bcf6b00.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09c993afacd01547.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09cbba9f5e097a19.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09d2112596d9155b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09d354dbd3dcc857.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09d45c49c4adbae4.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09d64f43c7111879.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09d8aa2d19ff724d.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09dcb9b52055d40f.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09dd0671cd633432.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09df63bd01367ca3.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09e094375efab7fe.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09e617d9d3120b32.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09ea349ee555b61d.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09ebcee57699eb98.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09f531fe4f6d95f3.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09f8b77a88f224d9.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09f8e760f60df0da.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/09fa093bcd300c1a.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a02c648d24f39fb.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a02e8b6820064f5.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a03326036647703.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a08a4711c728078.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a120822d362dddf.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a13dcaaab9a35e0.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a1b11867383b13e.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a1bd356f90aaab6.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a1f4761dc7fe1eb.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a23d3f0e7d850f4.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a278d979b63fc72.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a2c6ef66896fb92.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a34d80ee1db201e.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a37aa0734ac8016.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a3873442ad329c2.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a392d80c905a9df.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a39325e5ad7f5a0.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a3c01759e77a02d.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a3f577a327ca7cc.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a3f9b3d57ef354a.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a41cda5f44baaf6.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a47e7d602855f93.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a4abf0a8071b917.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a4db5693da70448.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a50911d08250183.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a556c8163b58fae.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a563d05ebab4fe3.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a5972c68b6bb265.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a599940d33b6b2b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a600f1148d1023c.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a6a03c8f23ee744.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a6bc386b28f2aac.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a7074a2a5515531.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a72fef43a51c479.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a73064c82730ff5.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a78374f2d3949ae.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a7be0b883a12966.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a7c597abf1e90d4.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a7d56b2fb989fe8.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a7f13330a5d0023.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a7f4d9a0ccb9afe.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a7fbc1d68e4e5ae.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a7ffd65766a4741.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a82f0443c940816.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a8657e8b5c9d7bb.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a877314ca2039d9.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a917bbca24cf75d.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a94296ff543a1dc.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a9f183e46c76019.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a9f73b3c2557150.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0a9ff75a7897e757.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0aa206fa7ea80036.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0aa3a6c33fca122b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0aaad833ac61ac9d.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0aacbdb54e853a0a.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0aad9fc79a35bd53.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0aae34863935e33a.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ab050b51e78acdb.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ab10a6417ef2301.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ab2b64f27f8baca.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ab5c690eebfad95.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ac166d12e401a98.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ac2f91a7995aa8b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ac3c1db1b3645f2.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ac51477636a6933.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ac52440f73b5c80.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0acfa779589204bf.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ad602c943c9f568.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ad7884032419621.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ad7bad30cd432df.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ad96a2881998657.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ad99d610a9092e6.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ada35baba28134b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0adc1330287b2e66.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0adc373e996aadc2.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0add91a2efb3f33d.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/open_images_annotations_100/validation/0ade7aef439e2102.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_examples.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/alaska_lakes/43259216952_59352d7204_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/australia/12822389285_a7723081b5_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/australia/8720651218_ca82a6608e_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/black_forest/44974691685_8e7372e2b1_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/black_forest/8364557382_c6c9ee2fd6_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/canada/256743165_9f130ba95b_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/canada/2883773_881c197107_c.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/carribean/14351041152_ef77484a1f_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/carribean/18176301_c9d27557cf_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/cliff_ocean/36142796444_45d452f567_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/desert/4534149722_3cc4f92891_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/geysir/14996762478_a9bdbf959a_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/geysir/26320755536_7c769b6218_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/geysir/3542389801_a2cbfee1e1_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/geysir/4748115806_7219c2b3be_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/ireland/15570753471_74db396d14_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/lakes/39933489595_f0e5d85b6d_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/meadow/18864473291_844325caab_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/mongolia/6076373946_e9ea2aee32_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/newzealand_np/7942812194_9348729b93_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/norway/20099378793_cc2df820af_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/norway/25735082181_999927fe5a_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/swiss_landscape/4079319632_0133685b2c_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/swiss_mountains/33509672006_bf4c416afd_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_images/volcano/50254383883_27ed6ea93a_b.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/alaska_lakes/43259216952_59352d7204_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/australia/12822389285_a7723081b5_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/australia/8720651218_ca82a6608e_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/black_forest/44974691685_8e7372e2b1_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/black_forest/8364557382_c6c9ee2fd6_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/canada/256743165_9f130ba95b_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/canada/2883773_881c197107_c.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/carribean/14351041152_ef77484a1f_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/carribean/18176301_c9d27557cf_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/cliff_ocean/36142796444_45d452f567_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/desert/4534149722_3cc4f92891_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/geysir/14996762478_a9bdbf959a_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/geysir/26320755536_7c769b6218_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/geysir/3542389801_a2cbfee1e1_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/geysir/4748115806_7219c2b3be_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/ireland/15570753471_74db396d14_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/lakes/39933489595_f0e5d85b6d_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/meadow/18864473291_844325caab_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/mongolia/6076373946_e9ea2aee32_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/newzealand_np/7942812194_9348729b93_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/norway/20099378793_cc2df820af_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/norway/25735082181_999927fe5a_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/swiss_landscape/4079319632_0133685b2c_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/swiss_mountains/33509672006_bf4c416afd_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/sflckr_segmentations/volcano/50254383883_27ed6ea93a_b.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/data/subreddits.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/environment.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/main.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/scripts/extract_depth.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/scripts/extract_segmentation.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/scripts/extract_submodel.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/scripts/make_samples.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/scripts/make_scene_samples.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/scripts/reconstruction_usage.ipynb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/scripts/sample_conditional.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/scripts/sample_fast.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/scripts/taming-transformers.ipynb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/setup.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/ade20k.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/annotated_objects_coco.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/annotated_objects_dataset.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/annotated_objects_open_images.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/base.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/coco.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/conditional_builder/objects_bbox.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/conditional_builder/objects_center_points.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/conditional_builder/utils.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/custom.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/faceshq.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/helper_types.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/image_transforms.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/imagenet.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/open_images_helper.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/sflckr.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/data/utils.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/lr_scheduler.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/models/cond_transformer.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/models/dummy_cond_stage.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/models/vqgan.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/modules/diffusionmodules/model.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/modules/discriminator/model.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/modules/losses/__init__.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/modules/losses/lpips.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/modules/losses/segmentation.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/modules/losses/vqperceptual.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/modules/misc/coord.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/modules/transformer/mingpt.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/modules/transformer/permuter.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/modules/util.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/modules/vqvae/quantize.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming/util.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming_transformers.egg-info/PKG-INFO",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming_transformers.egg-info/SOURCES.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming_transformers.egg-info/dependency_links.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming_transformers.egg-info/requires.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "taming-transformers/taming_transformers.egg-info/top_level.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.clang-format",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/config",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/description",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/hooks/applypatch-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/hooks/commit-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/hooks/fsmonitor-watchman.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/hooks/post-update.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/hooks/pre-applypatch.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/hooks/pre-commit.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/hooks/pre-merge-commit.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/hooks/pre-push.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/hooks/pre-rebase.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/hooks/pre-receive.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/hooks/prepare-commit-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/hooks/update.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/index",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/info/exclude",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/logs/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/logs/refs/heads/master",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/logs/refs/remotes/origin/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/config",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/description",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/hooks/applypatch-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/hooks/commit-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/hooks/fsmonitor-watchman.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/hooks/post-update.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/hooks/pre-applypatch.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/hooks/pre-commit.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/hooks/pre-merge-commit.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/hooks/pre-push.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/hooks/pre-rebase.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/hooks/pre-receive.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/hooks/prepare-commit-msg.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/hooks/update.sample",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/index",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/info/exclude",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/logs/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/logs/refs/heads/main",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/logs/refs/remotes/origin/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/objects/pack/pack-a0ff2ef7151f533c66075e8bb915cd224139bb5e.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/objects/pack/pack-a0ff2ef7151f533c66075e8bb915cd224139bb5e.pack",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/packed-refs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/refs/heads/main",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/modules/zed-ros-interfaces/refs/remotes/origin/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/objects/pack/pack-20e0139f6ecc248fcac6161e33751c1cbf5b65e1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/objects/pack/pack-20e0139f6ecc248fcac6161e33751c1cbf5b65e1.pack",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/packed-refs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/refs/heads/master",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.git/refs/remotes/origin/HEAD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.github/ISSUE_TEMPLATE/1_feature_request.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.github/ISSUE_TEMPLATE/2_bug_report.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.github/ISSUE_TEMPLATE/config.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.github/workflows/stale_issues.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.github/workflows/submodule_update.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/.gitmodules",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/CHANGELOG.rst",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/LICENSE",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/images/Picto+STEREOLABS_Black.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/images/rqt_diagnostic.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/.git",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/.github/workflows/stale_issues.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/CHANGELOG.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/LICENSE",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/meshes/zed.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/meshes/zed2.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/meshes/zed2i.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/meshes/zedm.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/meshes/zedx.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/meshes/zedxm.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/package.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_nodelets/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_nodelets/cfg/Zed.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_nodelets/nodelet_plugins.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_nodelets/package.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_demux_nodelet/include/rgbd_sensor_demux.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_demux_nodelet/src/rgbd_sensor_demux.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_sync_nodelet/include/rgbd_sensor_sync.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_sync_nodelet/src/rgbd_sensor_sync.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_nodelets/src/tools/include/sl_tools.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_nodelets/src/tools/src/sl_tools.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_nodelets/src/zed_nodelet/include/zed_wrapper_nodelet.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_nodelets/src/zed_nodelet/src/zed_wrapper_nodelet.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_ros/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_ros/package.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/cfg/Zed.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/launch/include/zed_camera.launch.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/launch/include/zed_camera_nodelet.launch",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/launch/include/zed_no_tf.launch.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/launch/zed.launch",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/launch/zed2.launch",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/launch/zed2i.launch",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/launch/zed_no_tf.launch",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/launch/zedm.launch",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/launch/zedx.launch",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/launch/zedxm.launch",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/package.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/params/common.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/params/sync.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/params/zed.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/params/zed2.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/params/zed2i.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/params/zedm.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/params/zedx.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/params/zedxm.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/src/zed_wrapper_node.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/urdf/ZEDM.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/urdf/include/materials.urdf.xacro",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/urdf/zed2i.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/urdf/zed_descr.urdf.xacro",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zed-ros-wrapper/zed_wrapper/urdf/zed_macro.urdf.xacro",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

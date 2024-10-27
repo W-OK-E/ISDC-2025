@@ -1,0 +1,640 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"/home/summer/isdc/build/zed-ros-wrapper/zed-ros-interfaces/cmake/zed_interfaces-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"zed-ros-wrapper/zed-ros-interfaces/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 365,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1515,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1512,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1509,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 398,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 422,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 390,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 406,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 386,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 414,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 380,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 410,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 412,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 396,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1518,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 402,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 394,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 400,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 418,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 374,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 372,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 408,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 376,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 392,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 404,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 416,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 428,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 420,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 430,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 388,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs_generate_messages_cpp::@31d04deada11b5ecc957"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "geometry_msgs_generate_messages_cpp::@31d04deada11b5ecc957"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "std_msgs_generate_messages_cpp::@31d04deada11b5ecc957"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "_zed_interfaces_generate_messages_check_deps_set_pose::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "_zed_interfaces_generate_messages_check_deps_start_object_detection::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "_zed_interfaces_generate_messages_check_deps_Skeleton3D::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "_zed_interfaces_generate_messages_check_deps_stop_svo_recording::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "_zed_interfaces_generate_messages_check_deps_ObjectsStamped::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "_zed_interfaces_generate_messages_check_deps_toggle_led::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "_zed_interfaces_generate_messages_check_deps_Keypoint2Di::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "_zed_interfaces_generate_messages_check_deps_stop_remote_stream::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "_zed_interfaces_generate_messages_check_deps_set_led_status::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "_zed_interfaces_generate_messages_check_deps_PosTrackStatus::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "shape_msgs_generate_messages_cpp::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "_zed_interfaces_generate_messages_check_deps_reset_tracking::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "_zed_interfaces_generate_messages_check_deps_PlaneStamped::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "_zed_interfaces_generate_messages_check_deps_reset_odometry::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "_zed_interfaces_generate_messages_check_deps_Keypoint3D::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "_zed_interfaces_generate_messages_check_deps_Keypoint2Df::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "_zed_interfaces_generate_messages_check_deps_stop_3d_mapping::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "_zed_interfaces_generate_messages_check_deps_BoundingBox2Di::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "_zed_interfaces_generate_messages_check_deps_BoundingBox2Df::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "_zed_interfaces_generate_messages_check_deps_start_remote_stream::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "_zed_interfaces_generate_messages_check_deps_BoundingBox3D::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "_zed_interfaces_generate_messages_check_deps_RGBDSensors::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "_zed_interfaces_generate_messages_check_deps_Object::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "_zed_interfaces_generate_messages_check_deps_start_svo_recording::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "_zed_interfaces_generate_messages_check_deps_start_3d_mapping::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "_zed_interfaces_generate_messages_check_deps_set_roi::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "_zed_interfaces_generate_messages_check_deps_save_3d_map::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "_zed_interfaces_generate_messages_check_deps_save_area_memory::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "_zed_interfaces_generate_messages_check_deps_stop_object_detection::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "_zed_interfaces_generate_messages_check_deps_reset_roi::@1227c36b6aa47eca1568"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "_zed_interfaces_generate_messages_check_deps_Skeleton2D::@1227c36b6aa47eca1568"
+		}
+	],
+	"id" : "zed_interfaces_generate_messages_cpp::@1227c36b6aa47eca1568",
+	"name" : "zed_interfaces_generate_messages_cpp",
+	"paths" : 
+	{
+		"build" : "zed-ros-wrapper/zed-ros-interfaces",
+		"source" : "zed-ros-wrapper/zed-ros-interfaces"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/zed-ros-wrapper/zed-ros-interfaces/CMakeFiles/zed_interfaces_generate_messages_cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/zed-ros-wrapper/zed-ros-interfaces/CMakeFiles/zed_interfaces_generate_messages_cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/BoundingBox2Df.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/BoundingBox2Di.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/BoundingBox3D.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/Keypoint2Df.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/Keypoint2Di.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/Keypoint3D.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/Object.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/ObjectsStamped.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/PlaneStamped.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/PosTrackStatus.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/RGBDSensors.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/Skeleton2D.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/Skeleton3D.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/reset_odometry.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/reset_roi.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/reset_tracking.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/save_3d_map.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/save_area_memory.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/set_led_status.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/set_pose.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/set_roi.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/start_3d_mapping.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/start_object_detection.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/start_remote_stream.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/start_svo_recording.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/stop_3d_mapping.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/stop_object_detection.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/stop_remote_stream.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/stop_svo_recording.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/summer/isdc/build/devel/include/zed_interfaces/toggle_led.h.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

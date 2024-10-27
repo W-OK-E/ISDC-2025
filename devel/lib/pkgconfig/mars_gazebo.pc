@@ -1,0 +1,8 @@
+prefix=/home/summer/isdc/devel
+
+Name: mars_gazebo
+Description: Description of mars_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

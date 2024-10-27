@@ -1,0 +1,69 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"/home/summer/isdc/build/zed-ros-wrapper/zed-ros-interfaces/cmake/zed_interfaces-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"zed-ros-wrapper/zed-ros-interfaces/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 433,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 434,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "zed_interfaces_generate_messages_cpp::@1227c36b6aa47eca1568"
+		}
+	],
+	"id" : "zed_interfaces_gencpp::@1227c36b6aa47eca1568",
+	"name" : "zed_interfaces_gencpp",
+	"paths" : 
+	{
+		"build" : "zed-ros-wrapper/zed-ros-interfaces",
+		"source" : "zed-ros-wrapper/zed-ros-interfaces"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
