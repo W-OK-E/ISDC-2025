@@ -1,4 +1,4 @@
-prefix=/home/summer/isdc/devel
+prefix=/home/summer/ISDC-2025/devel
 
 Name: mapping
 Description: Description of mapping

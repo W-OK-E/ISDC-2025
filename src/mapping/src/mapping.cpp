@@ -23,11 +23,11 @@ public:
         occupancy_grid_pub_ = nh_.advertise<nav_msgs::OccupancyGrid>("costmap", 1);
         occupancyGrid.header.stamp = ros::Time::now();
         occupancyGrid.header.frame_id = "map"; // Adjust frame_id as necessary
-        occupancyGrid.info.resolution = 0.1; // Set resolution (meters per cell)
+        occupancyGrid.info.resolution = 0.5; // Set resolution (meters per cell)
         occupancyGrid.info.width = 1500;
         occupancyGrid.info.height = 1500;
-        occupancyGrid.info.origin.position.x = 750; // Adjust origin as necessary
-        occupancyGrid.info.origin.position.y = -750;
+        occupancyGrid.info.origin.position.x = -750 * 0.05; // Adjust origin as necessary
+        occupancyGrid.info.origin.position.y = -750 * 0.05;
         occupancyGrid.info.origin.position.z = 0;
         occupancyGrid.info.origin.orientation.w = 1.0;
 
@@ -60,7 +60,32 @@ private:
         // Set the header
 
 
+    struct BotPosition {
+        double x, y, z;
+        double yaw, roll, pitch;
+    };
+    BotPosition bot_pose;
     int start_x, start_y, new_x = 0, new_y = 0, delta_x  = 0,delta_y = 0,map_x = 0,map_y = 0;
+    
+    geometry_msgs::Point globalPointToPixelIndex(const geometry_msgs::Point& global_point, const nav_msgs::OccupancyGrid grid) 
+    {
+        int x = static_cast<int>(round((global_point.x - grid.info.origin.position.x)/grid.info.resolution));
+        int y = static_cast<int>(round((global_point.y - grid.info.origin.position.y)/grid.info.resolution));
+
+        geometry_msgs::Point p;
+        p.x = x;
+        p.y = y;
+
+        return p;
+    }
+    // geometry_msgs::Point depth_to_global(vector<int> depth_point, const BotPosition& bot_pos) 
+    // {
+    //     geometry_msgs::Point global_point;
+    //     global_point.x = bot_pos.x + depth_point.x*sin(bot_pos.yaw) + depth_point.z*cos(bot_pos.yaw);
+    //     global_point.y = bot_pos.y + depth_point.z*sin(bot_pos.yaw) - depth_point.x*cos(bot_pos.yaw);
+
+    //     return global_point;
+    // }
     void depthCallback(const sensor_msgs::Image::ConstPtr& msg) {
         
         try {
@@ -70,7 +95,7 @@ private:
 
             // Create a costmap (occupancy grid)
             Mat costmap(depthImage.size(), CV_32FC1, Scalar(0));
-            // cout<<"Dimension of the Costmap is: "<<costmap.size()<<endl;
+            cout<<"Dimension of the Costmap is: "<<costmap.size()<<endl;
             // Parameters for depth normalization
             float minDepth = 5.0; // Minimum depth to consider for safe space
             float maxDepth = 8.0; // Maximum depth to consider for obstacles
@@ -109,11 +134,22 @@ private:
 
     void odomCallback(const nav_msgs::Odometry::ConstPtr &msg) 
     {
+        bot_pose.x = msg->pose.pose.position.x;
+        bot_pose.y = msg->pose.pose.position.y;
+        bot_pose.z = msg->pose.pose.position.z;
+
+        tf2::Quaternion q(
+            msg->pose.pose.orientation.x,
+            msg->pose.pose.orientation.y,
+            msg->pose.pose.orientation.z,
+            msg->pose.pose.orientation.w
+            );
+        tf2::Matrix3x3(q).getRPY(bot_pose.roll, bot_pose.pitch, bot_pose.yaw);
 
         new_x = msg->pose.pose.position.x;
         new_y = msg->pose.pose.position.y;
-        delta_x = new_x - start_x;
-        delta_y = new_y - start_y;
+        delta_x = abs(new_x - start_x);
+        delta_y = abs(new_y - start_y);
         start_x = new_x;
         start_y = new_y;
         // point_in_base_link.x = start_x;
@@ -122,52 +158,35 @@ private:
         map_y += delta_y - 160;
     }
 
+    void odomCallback2(const nav_msgs::Odometry::ConstPtr& msg)
+    {
+        float bot_x = msg->
+    }
     void publishOccupancyGrid(const Mat& costmap) {
         // Set the header
         geometry_msgs::TransformStamped transformStamped;
-        tf2_ros::Buffer tfBuffer;
-        tf2_ros::TransformListener tfListener(tfBuffer);
-        
-        try 
-        {
-            transformStamped = tfBuffer.lookupTransform("map", "base_link", ros::Time::now());
 
-
-            // Transform the point to map frame
-            geometry_msgs::Point point_in_map;
-
-            tf2::doTransform(point_in_base_link, point_in_map, transformStamped);
-            start_y = static_cast<int>(point_in_map.x);
-            start_x = static_cast<int>(point_in_map.y);
-        }
-        catch (tf2::TransformException &ex) {
-        ROS_WARN("%s", ex.what());
-        }
         occupancyGrid.header.stamp = ros::Time::now();
-        ROS_INFO("PUBLISHING OCCUPANCY GRID");
-
-        // Fill occupancy grid data
-        for (int y = map_y; y < map_y + costmap.rows; ++y) {
-            for (int x = map_x; x < map_x + costmap.cols; ++x) {
+        ROS_INFO("Publishing Grid");
+        for (int y = 0; y < costmap.rows; ++y) {
+            for (int x = 0; x < costmap.cols; ++x) {
         // Ensure indices are within bounds
                 if (y < 0 || y >= occupancyGrid.info.height || 
                     x < 0 || x >= occupancyGrid.info.width) {
-                    std::cerr << "Index out of bounds: y = " << y << ", x = " << x << std::endl;
+                    // std::cerr << "Index out of bounds: y = " << y << ", x = " << x << std::endl;
                     continue; // Skip this iteration if out of bounds
                 }
-
-                float cost = costmap.at<float>(y - map_y, x - map_x);
-                int ind = y * occupancyGrid.info.width + x; // Use occupancyGrid width
-
+                geometry_msgs::Point global_point;
+                global_point.x = x;
+                global_point.y = y;
+                // geometry_msgs::Point p_ind = globalPointToPixelIndex(global_point, occupancyGrid);
+                float cost = costmap.at<float>(y , x );
+                // int ind = global_point.y * occupancyGrid.info.width + global_point.x; // Use occupancyGrid width
+                int ind = y * occupancyGrid.info.width + x; 
                 occupancyGrid.data[ind] = cost * 100; // Use the correct index
             }
         }
-        for (int y = 1300; y < 1495 ; ++y) {
-            for (int x = 1300; x < 1495; ++x){
-                 int ind = y * occupancyGrid.info.width + x;
-                occupancyGrid.data[ind] = 100;
-            }
-        }
+
         occupancy_grid_pub_.publish(occupancyGrid);
         ROS_INFO("Occupancy grid published.");
     }

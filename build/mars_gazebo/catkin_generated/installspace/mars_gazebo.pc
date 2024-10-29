@@ -1,4 +1,4 @@
-prefix=/usr/local
+prefix=/home/summer/ISDC-2025/install
 
 Name: mars_gazebo
 Description: Description of mars_gazebo

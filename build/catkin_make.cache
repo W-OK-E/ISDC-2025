@@ -1,2 +1,2 @@
 mapping:mapping2:mars_gazebo:robot_description:zed-ros-wrapper/zed-ros-interfaces:zed-ros-wrapper/zed_nodelets:zed-ros-wrapper/zed_ros:zed-ros-wrapper/zed_wrapper
--DCATKIN_DEVEL_PREFIX=/home/summer/isdc/devel -DCMAKE_INSTALL_PREFIX=/home/summer/isdc/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/summer/ISDC-2025/devel -DCMAKE_INSTALL_PREFIX=/home/summer/ISDC-2025/install -G Unix Makefiles

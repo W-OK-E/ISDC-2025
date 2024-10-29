@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /usr/local/setup.sh
+    local-name: /home/summer/ISDC-2025/install/setup.sh

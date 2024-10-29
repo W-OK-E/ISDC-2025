@@ -67,14 +67,14 @@ set(zed_interfaces_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(zed_interfaces_SOURCE_PREFIX /home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces)
-  set(zed_interfaces_DEVEL_PREFIX /home/summer/isdc/build/devel)
+  set(zed_interfaces_SOURCE_PREFIX /home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces)
+  set(zed_interfaces_DEVEL_PREFIX /home/summer/ISDC-2025/devel)
   set(zed_interfaces_INSTALL_PREFIX "")
   set(zed_interfaces_PREFIX ${zed_interfaces_DEVEL_PREFIX})
 else()
   set(zed_interfaces_SOURCE_PREFIX "")
   set(zed_interfaces_DEVEL_PREFIX "")
-  set(zed_interfaces_INSTALL_PREFIX /usr/local)
+  set(zed_interfaces_INSTALL_PREFIX /home/summer/ISDC-2025/install)
   set(zed_interfaces_PREFIX ${zed_interfaces_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /usr/local/lib;/opt/ros/noetic/lib)
+    foreach(path /home/summer/ISDC-2025/install/lib;/home/summer/isdc/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

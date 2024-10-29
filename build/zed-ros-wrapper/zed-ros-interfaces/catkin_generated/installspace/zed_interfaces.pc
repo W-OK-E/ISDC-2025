@@ -1,4 +1,4 @@
-prefix=/usr/local
+prefix=/home/summer/ISDC-2025/install
 
 Name: zed_interfaces
 Description: Description of zed_interfaces

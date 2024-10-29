@@ -1,4 +1,4 @@
-prefix=/usr/local
+prefix=/home/summer/ISDC-2025/install
 
 Name: robot_description
 Description: Description of robot_description

@@ -1,4 +1,4 @@
-prefix=/usr/local
+prefix=/home/summer/ISDC-2025/install
 
 Name: zed_nodelets
 Description: Description of zed_nodelets

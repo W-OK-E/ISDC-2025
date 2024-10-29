@@ -2,7 +2,7 @@
 
 message(STATUS "zed_interfaces: 13 messages, 17 services")
 
-set(MSG_I_FLAGS "-Ized_interfaces:/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Ishape_msgs:/opt/ros/noetic/share/shape_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ized_interfaces:/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Ishape_msgs:/opt/ros/noetic/share/shape_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,154 +17,154 @@ add_custom_target(zed_interfaces_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" "zed_interfaces/Keypoint2Df"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" "zed_interfaces/Keypoint2Df"
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" "zed_interfaces/Keypoint2Di"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" "zed_interfaces/Keypoint2Di"
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" "zed_interfaces/Keypoint3D"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" "zed_interfaces/Keypoint3D"
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" "zed_interfaces/BoundingBox3D:zed_interfaces/BoundingBox2Di:zed_interfaces/Keypoint2Di:zed_interfaces/Skeleton2D:zed_interfaces/BoundingBox2Df:zed_interfaces/Keypoint2Df:zed_interfaces/Skeleton3D:zed_interfaces/Keypoint3D"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" "zed_interfaces/Keypoint2Df:zed_interfaces/BoundingBox3D:zed_interfaces/Keypoint2Di:zed_interfaces/Skeleton3D:zed_interfaces/BoundingBox2Di:zed_interfaces/BoundingBox2Df:zed_interfaces/Skeleton2D:zed_interfaces/Keypoint3D"
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" "zed_interfaces/BoundingBox3D:std_msgs/Header:zed_interfaces/BoundingBox2Di:zed_interfaces/Object:zed_interfaces/Keypoint2Di:zed_interfaces/Skeleton2D:zed_interfaces/BoundingBox2Df:zed_interfaces/Keypoint2Df:zed_interfaces/Skeleton3D:zed_interfaces/Keypoint3D"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" "zed_interfaces/Keypoint2Df:zed_interfaces/BoundingBox3D:zed_interfaces/Keypoint2Di:zed_interfaces/Object:zed_interfaces/Skeleton3D:std_msgs/Header:zed_interfaces/BoundingBox2Di:zed_interfaces/BoundingBox2Df:zed_interfaces/Skeleton2D:zed_interfaces/Keypoint3D"
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" "zed_interfaces/Keypoint2Df"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" "zed_interfaces/Keypoint2Df"
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" "zed_interfaces/Keypoint3D"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" "zed_interfaces/Keypoint3D"
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" "geometry_msgs/Vector3:sensor_msgs/Imu:std_msgs/Header:sensor_msgs/CameraInfo:sensor_msgs/RegionOfInterest:geometry_msgs/Quaternion:sensor_msgs/Image:sensor_msgs/MagneticField"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" "sensor_msgs/Imu:sensor_msgs/MagneticField:sensor_msgs/Image:std_msgs/Header:sensor_msgs/CameraInfo:sensor_msgs/RegionOfInterest:geometry_msgs/Vector3:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" "shape_msgs/MeshTriangle:geometry_msgs/Point32:geometry_msgs/Vector3:std_msgs/Header:shape_msgs/Plane:geometry_msgs/Point:geometry_msgs/Polygon:geometry_msgs/Transform:geometry_msgs/Quaternion:shape_msgs/Mesh"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" "shape_msgs/Plane:shape_msgs/Mesh:geometry_msgs/Polygon:std_msgs/Header:geometry_msgs/Point:shape_msgs/MeshTriangle:geometry_msgs/Vector3:geometry_msgs/Transform:geometry_msgs/Quaternion:geometry_msgs/Point32"
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" ""
 )
 
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" NAME_WE)
 add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "zed_interfaces" "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" ""
 )
 
 #
@@ -174,79 +174,79 @@ add_custom_target(_zed_interfaces_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
-)
-_generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Imu.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CameraInfo.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/MagneticField.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/shape_msgs/cmake/../msg/MeshTriangle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Plane.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Mesh.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Imu.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/MagneticField.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CameraInfo.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/shape_msgs/cmake/../msg/Plane.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Mesh.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/MeshTriangle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
+)
+_generate_msg_cpp(zed_interfaces
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
@@ -254,103 +254,103 @@ _generate_msg_cpp(zed_interfaces
 
 ### Generating Services
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_cpp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/zed_interfaces
@@ -368,65 +368,65 @@ add_custom_target(zed_interfaces_generate_messages_cpp
 add_dependencies(zed_interfaces_generate_messages zed_interfaces_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_cpp _zed_interfaces_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -439,79 +439,79 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS zed_interfaces_generate_messages_cp
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
-)
-_generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Imu.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CameraInfo.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/MagneticField.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/shape_msgs/cmake/../msg/MeshTriangle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Plane.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Mesh.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Imu.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/MagneticField.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CameraInfo.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/shape_msgs/cmake/../msg/Plane.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Mesh.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/MeshTriangle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
+)
+_generate_msg_eus(zed_interfaces
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
@@ -519,103 +519,103 @@ _generate_msg_eus(zed_interfaces
 
 ### Generating Services
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_eus(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/zed_interfaces
@@ -633,65 +633,65 @@ add_custom_target(zed_interfaces_generate_messages_eus
 add_dependencies(zed_interfaces_generate_messages zed_interfaces_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_eus _zed_interfaces_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -704,79 +704,79 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS zed_interfaces_generate_messages_eu
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
-)
-_generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Imu.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CameraInfo.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/MagneticField.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/shape_msgs/cmake/../msg/MeshTriangle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Plane.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Mesh.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Imu.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/MagneticField.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CameraInfo.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/shape_msgs/cmake/../msg/Plane.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Mesh.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/MeshTriangle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
+)
+_generate_msg_lisp(zed_interfaces
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
@@ -784,103 +784,103 @@ _generate_msg_lisp(zed_interfaces
 
 ### Generating Services
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_lisp(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/zed_interfaces
@@ -898,65 +898,65 @@ add_custom_target(zed_interfaces_generate_messages_lisp
 add_dependencies(zed_interfaces_generate_messages zed_interfaces_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_lisp _zed_interfaces_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -969,79 +969,79 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS zed_interfaces_generate_messages_li
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
-)
-_generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Imu.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CameraInfo.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/MagneticField.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/shape_msgs/cmake/../msg/MeshTriangle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Plane.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Mesh.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Imu.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/MagneticField.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CameraInfo.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/shape_msgs/cmake/../msg/Plane.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Mesh.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/MeshTriangle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
+)
+_generate_msg_nodejs(zed_interfaces
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
@@ -1049,103 +1049,103 @@ _generate_msg_nodejs(zed_interfaces
 
 ### Generating Services
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_nodejs(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/zed_interfaces
@@ -1163,65 +1163,65 @@ add_custom_target(zed_interfaces_generate_messages_nodejs
 add_dependencies(zed_interfaces_generate_messages zed_interfaces_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_nodejs _zed_interfaces_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -1234,79 +1234,79 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS zed_interfaces_generate_messages_no
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
-)
-_generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg;/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg"
   "${MSG_I_FLAGS}"
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Imu.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CameraInfo.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/MagneticField.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/shape_msgs/cmake/../msg/MeshTriangle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Plane.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Mesh.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Imu.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/MagneticField.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CameraInfo.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_msg_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/shape_msgs/cmake/../msg/Plane.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/Mesh.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/shape_msgs/cmake/../msg/MeshTriangle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
+)
+_generate_msg_py(zed_interfaces
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
@@ -1314,103 +1314,103 @@ _generate_msg_py(zed_interfaces
 
 ### Generating Services
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
 )
 _generate_srv_py(zed_interfaces
-  "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv"
+  "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/zed_interfaces
@@ -1428,65 +1428,65 @@ add_custom_target(zed_interfaces_generate_messages_py
 add_dependencies(zed_interfaces_generate_messages zed_interfaces_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Df.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox2Di.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/BoundingBox3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Df.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint2Di.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Keypoint3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Object.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/ObjectsStamped.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton2D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/Skeleton3D.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/RGBDSensors.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PlaneStamped.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/msg/PosTrackStatus.msg" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_pose.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_odometry.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_tracking.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_svo_recording.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_svo_recording.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_remote_stream.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_remote_stream.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_led_status.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/toggle_led.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_3d_mapping.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_3d_mapping.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_3d_map.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/start_object_detection.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/stop_object_detection.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/save_area_memory.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/set_roi.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/summer/isdc/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" NAME_WE)
+get_filename_component(_filename "/home/summer/ISDC-2025/src/zed-ros-wrapper/zed-ros-interfaces/srv/reset_roi.srv" NAME_WE)
 add_dependencies(zed_interfaces_generate_messages_py _zed_interfaces_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
