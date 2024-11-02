@@ -109,23 +109,20 @@ private:
         // int start_x = 0,start_y = 0;
         // cin>>start_x>>start_y;
         cout<<depthImage.rows<<" "<<depthImage.cols<<endl;
-        int origin_x = 750-180, origin_y = 750-320;
-        for (int y = 0; y < depthImage.rows; ++y) {
-            for (int x = 0; x < depthImage.cols; ++x) {
+        int origin_x = 750-320, origin_y = 750-180;
+        for (int x = 0; x < depthImage.cols; ++x) {
+            for (int y = 0; y < depthImage.rows; ++y) {
         // Ensure indices are within bounds
                 if (y + delta_y < 0 || y + delta_y >= occupancyGrid.info.height || 
                     x + delta_x < 0 || x + delta_x >= occupancyGrid.info.width) {
                     // std::cerr << "Index out of bounds: y = " << y << ", x = " << x << std::endl;
                     continue; // Skip this iteration if out of bounds
                 }
-                geometry_msgs::Point global_point;
-                global_point.x = x;
-                global_point.y = y;
                 // geometry_msgs::Point p_ind = globalPointToPixelIndex(global_point, occupancyGrid);
-                float cost = normalizeDepth(depthImage.at<float>(x , y ),minDepth,maxDepth);
+                float cost = normalizeDepth(depthImage.at<float>(y , x ),minDepth,maxDepth);
                 // int ind = global_point.y * occupancyGrid.info.width + global_point.x; // Use occupancyGrid width
                 // cout<<x+delta_x<<" "<<y+delta_y<<endl;
-                int ind = (y + origin_y) * width_  + (origin_x + x) ; 
+                int ind = (y - origin_y) + (origin_x - x) * width_ ; 
                 // cout<<"Index:"<<ind<<endl;
                 occupancyGrid.data[ind] = cost * 100; // Use the correct index
             }
