@@ -23,7 +23,7 @@ public:
         occupancy_grid_pub_ = nh_.advertise<nav_msgs::OccupancyGrid>("costmap", 1);
         occupancyGrid.header.stamp = ros::Time::now();
         occupancyGrid.header.frame_id = "map"; // Adjust frame_id as necessary
-        resolution_ = 0.1;
+        resolution_ = 0.01;
         width_ = 1500;
         height_ = 1500;
         origin_x = -(width_/2) * resolution_;
@@ -102,14 +102,10 @@ private:
             }
 
         occupancyGrid.header.stamp = ros::Time::now();
-        // cout<<"Delta X"<<delta_x<<endl;
-        // cout<<"Delta Y"<<delta_y<<endl;
-        // ROS_INFO("Publishing Grid");
-        // cout<<"Enter the origin of the image"<<endl;
-        // int start_x = 0,start_y = 0;
-        // cin>>start_x>>start_y;
-        cout<<depthImage.rows<<" "<<depthImage.cols<<endl;
-        int origin_x = 750-320, origin_y = 750-180;
+
+        cout<<"CHange in x:"<<delta_x<<endl;
+        int origin_x = 750-320;// + delta_x;//half of the image's columns, 
+        int origin_y = 750-180;//half of the image's rows ;
         for (int x = 0; x < depthImage.cols; ++x) {
             for (int y = 0; y < depthImage.rows; ++y) {
         // Ensure indices are within bounds
@@ -122,7 +118,7 @@ private:
                 float cost = normalizeDepth(depthImage.at<float>(y , x ),minDepth,maxDepth);
                 // int ind = global_point.y * occupancyGrid.info.width + global_point.x; // Use occupancyGrid width
                 // cout<<x+delta_x<<" "<<y+delta_y<<endl;
-                int ind = (y - origin_y) + (origin_x - x) * width_ ; 
+                int ind = (y + origin_y) + (origin_x + x) * width_ ; 
                 // cout<<"Index:"<<ind<<endl;
                 occupancyGrid.data[ind] = cost * 100; // Use the correct index
             }
@@ -161,10 +157,10 @@ private:
             msg->pose.pose.orientation.w
             );
         tf2::Matrix3x3(q).getRPY(bot_pose.roll, bot_pose.pitch, bot_pose.yaw);
-
-        new_pos = worldToGrid(msg->pose.pose.position);
+        
+        new_pos = msg->pose.pose.position;
         cout<<"Inside Odom "<<msg->pose.pose.position.x<<" "<<msg->pose.pose.position.y<<endl;
-        delta_x = abs(new_pos.x - old_pos.x);
+        delta_x = int((abs(new_pos.x) - abs(old_pos.x))*215);
         delta_y = abs(new_pos.y - old_pos.y);
         
         old_pos = new_pos;

@@ -1,0 +1,8 @@
+<!-- launch/octomap_servers.launch -->
+<launch>
+
+  <!-- <node name="pointcloud_filter" pkg="vision" type="pointcloud_filter" output="screen"/> -->
+
+  <node name="pc_mapper" pkg="vision" type="pc_mapper" output="screen"/>
+
+</launch>
