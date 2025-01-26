@@ -1,0 +1,1 @@
+### To run the depth.py file you'll need the depth anything v2 model, which can be found here: [[depthanythingv2](https://github.com/DepthAnything/Depth-Anything-V2)], clone that reposirory and place the depth.py script in the same folder
